@@ -5,6 +5,7 @@ A command-line application that dynamically generates a professional README.md f
 
 
 ## Built With
+* JavaScript
 * Node.js
 * Inquirer.js
 
