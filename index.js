@@ -11,19 +11,36 @@ const questions = [
     },
     {
         type: "input",
-        message: "Please write a brief description of your project.",
+        message: "Please write a description of your project.",
         name: "description"
     },
     {
         type: "input",
-        message: "What command should be run to install dependencies?",
+        message: "What are the steps required to install your project?",
         name: "installation",
-        default: "npm i"
     },
-
-
-
-
+    {
+        type: "input",
+        message: "Provide instructions and examples for use.",
+        name: "usage",
+    },
+    {
+        type: "input",
+        message: "What guidelines do you want to add for other developers to contribute?",
+        name: "contributing"
+    },
+    {
+        type: "input",
+        message: "Provide instructions for running tests.",
+        name: "test"
+    },
+    {
+        type: 'checkbox',
+        message: 'What license do you want your project to have?',
+        name: 'license',
+        choices: ['MIT', 'ISC', 'Open Software License 3.0', 'Do What The F*ck You Want To Public License']
+      },
+  
 
 
 
