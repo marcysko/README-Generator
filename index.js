@@ -1,10 +1,11 @@
-// TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
+const apiax = require("./utils/api.js")
+const generateMarkdown = require("./utils/generateMarkdown.js")
 
-// TODO: Create an array of questions for user input
+
 const questions = [
-    {   
+    {
         type: "input",
         message: "What is your project title?",
         name: "title"
@@ -21,12 +22,12 @@ const questions = [
     },
     {
         type: "input",
-        message: "Provide instructions and examples for use.",
+        message: "Provide instructions and examples for using the repository.",
         name: "usage",
     },
     {
         type: "input",
-        message: "What guidelines do you want to add for other developers to contribute?",
+        message: "What guidelines do you want to add for users to contribute?",
         name: "contributing"
     },
     {
@@ -40,13 +41,21 @@ const questions = [
         name: 'license',
         choices: ['MIT', 'ISC', 'Open Software License 3.0', 'Do What The F*ck You Want To Public License']
       },
-  
-
-
-
-
-
-
+      {
+        type: "input",
+        message: "What is your GitHub username?",
+        name: "gitname"
+    },
+    {
+        type: "input",
+        message: "Provide instructions for running tests.",
+        name: "test"
+    },
+    {
+        type: 'input',
+        name: 'contact',
+        message: 'What is your email address?'
+      },
 ]
 
 // TODO: Create a function to write README file
