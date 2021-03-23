@@ -1,8 +1,7 @@
 # README-Generator
 
 ## Purpose
-A website that offers fitness training services. 
-
+A command-line application that dynamically generates a professional README.md file from a user's input.
 
 
 ## Built With
@@ -13,6 +12,6 @@ A website that offers fitness training services.
 
 
 ## Contribution
-Made with ❤️ by [Marcy S.]
+Made with ❤️ by Marcy S
 
 ### ©️2021 UofA Boot Camp
