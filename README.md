@@ -11,6 +11,9 @@ A command-line application that dynamically generates a professional README.md f
 
 ## Video 
 
+## Installation
+npm install
+
 ## Contribution
 Made with ❤️ by Marcy S
 
