@@ -12,7 +12,7 @@ A command-line application that dynamically generates a professional README.md f
 ## Video 
 
 ## Installation
-[![License: MIT](https://img.shields.io/badge/License-MIT.svg)](https://opensource.org/licenses/MIT)
+[![npm install](https://img.shields.io/badge/License-MIT.svg)](https://opensource.org/licenses/MIT)
 
 ## Contribution
 Made with ❤️ by Marcy S
