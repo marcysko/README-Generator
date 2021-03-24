@@ -69,10 +69,20 @@ function writeToFile(fileName, data) {
 }
 
 // Function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions)
+    .then(function (data) {
+        api(data).then(result => {
+            console.log(result)   
+            const create = generateMarkdown(data, result.data) 
+            console.log(create)
+            writeToFile("example.md", create)
+        })
 
+        .catch(function (err) {
+            console.log(err);
+        })
+})
 
-
-
-// call to initialize app
-init();
+    // call to initialize app
+    init();

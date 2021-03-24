@@ -27,7 +27,6 @@ ${data.contributing}
 To run tests, please execute the following command(s):
 ${data.tests}
 ### Questions
-<img src="${result.avatar_url}" alt="avatar" style="border-radius: 16px" width="30">
 If you have additional questions about this repository, reach me at [${result.name}](https://api.github.com/users/${result.login}) directly at ${result.email || "NA"}.
 `;
 }
