@@ -9,8 +9,7 @@ A command-line application that dynamically generates a professional README.md f
 * Node.js
 * Inquirer.js
 
-## Website
-
+## Video 
 
 ## Contribution
 Made with ❤️ by Marcy S
