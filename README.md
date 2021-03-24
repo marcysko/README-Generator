@@ -12,7 +12,7 @@ A command-line application that dynamically generates a professional README.md f
 ## Video 
 
 ## Installation
-[![npm install](https://img.shields.io/badge/{FIRST}-{SECONDARY}-{HEX-COLOR}?style=for-the-badge&logo={ICON}&logoColor=white)
+[![npm install](https://img.shields.io/badge/{FIRST}-{SECONDARY}-{#CB3837}?style=for-the-badge&logo={ICON}&logoColor=white)
 
 ## Contribution
 Made with ❤️ by Marcy S
