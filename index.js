@@ -1,6 +1,6 @@
-const fs = require('fs');
-const inquirer = require('inquirer');
-const apiax = require("./utils/api.js")
+const fs = require("fs");
+const inquirer = require("inquirer");
+const api = require("./utils/api.js")
 const generateMarkdown = require("./utils/generateMarkdown.js")
 
 
@@ -78,11 +78,11 @@ function init() {
             console.log(create)
             writeToFile("example.md", create)
         })
-
-        .catch(function (err) {
-            console.log(err);
-        })
+    });  
+// prevent error handling
+promise1.catch((error) => {
+    console.error(error);
 })
-
-    // call to initialize app
-    init();
+};
+init();
+node 
