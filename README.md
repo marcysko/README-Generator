@@ -9,6 +9,7 @@ A command-line application that dynamically generates a professional README.md f
 * Node.js
 * Inquirer.js
 
+[![Screen-Shot-2021-03-27-at-1-25-01-PM.png](https://i.postimg.cc/pdC2fdmG/Screen-Shot-2021-03-27-at-1-25-01-PM.png)](https://postimg.cc/LqqKR2BL)
 [![Screen-Shot-2021-03-27-at-1-12-33-PM.png](https://i.postimg.cc/bNDKyvpX/Screen-Shot-2021-03-27-at-1-12-33-PM.png)](https://postimg.cc/svznKsMK)
 
 ## Video 
