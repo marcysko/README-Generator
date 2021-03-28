@@ -1,6 +1,9 @@
 function generateMarkdown(data, result) {
   return `
 # ${data.title}
+## Licensing:
+  [![license](https://img.shields.io/badge/license-${data.license}-yellow)](https://shields.io)
+
 ## Description
 ${data.description}
 ## Table of Contents
@@ -15,20 +18,22 @@ ${data.description}
   
   * [Questions](#Questions)
 ## Installation
-To install necessary dependencies, run the following command:
-${data.dependencies}
+What are the steps required to install your project?
+${data.installation}
 ### Usage
 ${data.usage}
 ### License
-![${data.license} License](https://img.shields.io/badge/license-${data.license}-blue.svg)
+${data.license}
 ### Contributing
 ${data.contributing}
 ### Tests
-To run tests, please execute the following command(s):
+Provide instructions for running tests:
 ${data.tests}
-### Questions
-If you have additional questions about this repository, reach me at [${result.name}](https://api.github.com/users/${result.login}) directly at ${result.email || "NA"}.
-`;
+## Questions
+* For questions, please reach out to me at ${data.contact}
+* Find me on Github at [${data.gitname}](http://github.com/${data.gitname})`;
+  
 }
+
 
 module.exports = generateMarkdown;

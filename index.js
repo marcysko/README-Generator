@@ -39,12 +39,12 @@ const questions = [
         type: 'checkbox',
         message: 'What license do you want your project to have?',
         name: 'license',
-        choices: ['MIT', 'ISC', 'Open Software License 3.0', 'Do What The F*ck You Want To Public License']
+        choices: ['MIT', 'ISC', 'PDDL', 'Perl']
       },
       {
         type: "input",
         message: "What is your GitHub username?",
-        name: "gitname"
+        name: "gitname",
     },
     {
         type: "input",
@@ -64,7 +64,7 @@ function writeToFile(fileName, data) {
         if (err) {
             return console.log(err)
         }
-        console.log("Success!")
+        console.log("README successfully created!")
     })
 }
 
@@ -76,13 +76,9 @@ function init() {
             console.log(result)   
             const create = generateMarkdown(data, result.data) 
             console.log(create)
-            writeToFile("example.md", create)
+            writeToFile("readmeexample.md", create)
         })
     });  
-// prevent error handling
-promise1.catch((error) => {
-    console.error(error);
-})
+
 };
 init();
-node 
