@@ -13,7 +13,7 @@ A command-line application that dynamically generates a professional README.md f
 [![Screen-Shot-2021-03-27-at-1-25-01-PM.png](https://i.postimg.cc/pdC2fdmG/Screen-Shot-2021-03-27-at-1-25-01-PM.png)](https://postimg.cc/LqqKR2BL)
 
 ## Video
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](https://media.giphy.com/media/ijbhxRPThiM2dQPyZn/giphy.gif)
 
 ## Installation
 Clone repository and then run command npm install.
