@@ -28,7 +28,7 @@ ${data.license}
 ${data.contributing}
 ### Tests
 Provide instructions for running tests:
-${data.tests}
+${data.test}
 ## Questions
 * For questions, please reach out to me at ${data.contact}
 * Find me on Github at [${data.gitname}](http://github.com/${data.gitname})`;
